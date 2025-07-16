@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>to-do-list</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>TO-DO-LIST</h1>
+        <h2>Ever wondered what should you do on a lazy Sunday?</h2>
+        <figure>
+            <img src="data:image/png;base64,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" alt="bored?">
+            <figcaption>
+                Bored like this or even more!?
+            </figcaption>
+        </figure>
+        <p> Well! Let me help you figure out what should you do!</p>
+        <h3 id="first">You donot have to stress out now!</h3>
+        <form>
+            <label>
+                <input type="checkbox" name="to-do-list" value="wakeup before 8">Wake up before 8
+            </label><br>
+            <label>
+                <input type="checkbox" name="to-do-list" value="Say a hi to that laundry">Say a hi to that laundry 
+            </label><br>
+        
+            <label>
+                <input type="checkbox" name="to-do-list" value="Make yourself a yummy breakfast">Make yourself a yummy breakfast
+
+            </label><br>
+            <label>
+                <input type="checkbox" name="to-do-list" value="Now do that laundry">Now do that laundry
+            </label><br>
+            <label>
+                <input type="checkbox" name="to-do-list" value="Reconect with nature">Reconnect with nature
+            </label><br>
+            <label>
+                <input type="checkbox" name="to-do-list" value="Now make lunch">Now make lunch
+            </label><br>
+            <label>
+                <input type="checkbox" name="to-do-list" value="Sleep">sleep
+            </label><br>
+            <label>
+                <input type="checkbox" name="to-do-list" value="Watch netflix">watch netflix
+            </label><br>
+
+        </form>
+        </body>
+        </html>
